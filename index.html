@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+	<meta http-equiv="X-Content-Security-Policy" content="default-src 'self'; script-src 'self'">
+	<title>Hello World!</title>
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="assets/fonts/fontawesome/css/all.min.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
+</head>
+
+<body>
+
+	<div class="container-fluid" id="mainWrapper">
+		<div class="row">
+			<div class="col-2">
+				<button class="close f-left btn-color" id="sidebarButton" aria-label="Sidebar">
+					<i class="fas fa-bars"></i>
+				</button>
+				<button class="close f-left btn-color" id="devToolsButton" aria-label="DevTools">
+					<i class="fab fa-dev"></i>
+				</button>
+			</div>
+			<div class="col-7 draggable-area">
+				
+			</div>
+			<div class="col-3">
+
+				<button type="button" class="close btn-color" aria-label="Close" id="closeButton">
+					<span aria-hidden="true">&times;</span>
+				</button>
+
+				<button class="close btn-color" aria-label="Maximize" id="maximizeButton" type="button">
+					<i class="far fa-square"></i>
+				</button>
+				
+				<button class="close btn-color" type="button" aria-label="Minimize" id="minimizeButton">
+					<i class="fas fa-minus"></i>
+				</button>
+				
+			</div>
+		</div>
+		<div class="row sidebar-row">
+			
+		</div>
+		<div class="row content-row">
+
+		</div>
+	</div>
+
+	<script src="node_modules/jquery/dist/jquery.min.js"></script>
+	<script src="./renderer.js"></script>
+
+</body>
+
+</html>
