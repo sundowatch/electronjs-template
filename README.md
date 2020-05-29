@@ -1,4 +1,6 @@
-# Sample Electron App
+# ElectronJS Template
+
+Basic and flexiable ElectronJS dark template
 
 # Installation
 
