@@ -1,22 +1,23 @@
 {
-	"name": "sleep-cycle",
-	"version": "1.0.0",
-	"description": "Organize Your Sleep",
+	"name": "electronjs-template",
+	"version": "1.1.1",
+	"description": "ElectronJS Template",
 	"main": "main.js",
 	"scripts": {
 		"start": "electron .",
 		"pack": "electron-builder --dir",
 		"dist": "electron-builder"
 	},
-	"repository": "https://github.com/electron/electron-quick-start",
+	"repository": "https://github.com/sundowatch/electronjs-template",
 	"keywords": [
-		"sleep",
-		"cycle"
+		"electron",
+		"javascript",
+		"template"
 	],
 	"build": {
-		"appId": "org.truncgil.SleepCycle",
-		"productName": "SleepCycle",
-		"copyright": "Copyright © Ibrahim Sanduvaç",
+		"appId": "org.truncgil.electronjstemplate",
+		"productName": "ElectronJSTemplate",
+		"copyright": "Copyright © 2020 Ibrahim Sanduvaç",
 		"directories": {
 			"buildResources": "resources"
 		},
@@ -24,7 +25,11 @@
 			"target": [
 				"nsis",
 				"msi"
-			]
+			],
+			"asar": true,
+			"icon": "resources/icon.ico",
+			"publisherName": "Ibrahim Sanduvaç",
+			"legalTrademarks": "(c) 2020 truncgil.com"
 		}
 	},
 	"author": "Ibrahim Sanduvaç",

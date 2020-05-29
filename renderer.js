@@ -30,3 +30,4 @@ $('#devToolsButton').on('click', function(){
 $('#sidebarButton').on('click', function(){
     $('.sidebar-row').toggleClass('open');
 });
+
