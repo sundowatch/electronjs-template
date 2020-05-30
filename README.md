@@ -5,7 +5,7 @@ Basic and flexiable ElectronJS dark template
 # Installation
 
 ```
-git clone https://github.com/sundowatch/electronjs-template.git
+git clone https://github.com/sundowatch/electronjs-template.git project-name
 npm install
 yarn
 ```
